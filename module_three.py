@@ -1,8 +1,19 @@
-def mealTotal(total):
+def getTax(total):
     tax = 0.07
+    final = round(total * tax)
+    print(final)
+    return final
+
+def getTip(total):
     tip = 0.18
-    total = total + (total * tax) + (total * tip)
-    return total
+    final = round(total * tip)
+    print(final)
+    return final
+
+def mealTotal(total):
+    final = total + getTax(total) + getTip(total)
+    return final
+
 
 print(mealTotal(100))
 print(mealTotal(135))
