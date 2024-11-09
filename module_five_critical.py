@@ -1,4 +1,5 @@
-months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+months = ["January", "February", "March", "April", "May", "June", "July", 
+          "August", "September", "October", "November", "December"]
 
 def main():
     # Get the number of years
